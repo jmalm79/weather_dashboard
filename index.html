@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>My Weather Dashboard</title>
+</head>
+<body>
+  <!--  header   -->
+    <header>
+        <div>
+            <h1>Weather Dashboard</h1>
+        </div>
+    </header>
+  <!-- first row -->
+  <div class="container-fluid">
+    
+      <div class="row">
+
+        <div class="col-3">    
+          <form class="example justify-content-start" action="/action_page.php">
+            <input type="text" placeholder="City Search.." id="userInput">
+            <button type="submit" id="searchBtn"><i class="fa fa-search"></i></button>
+          </form>
+                                <!--this block is a place holder, this will dynamically generate with API call-->
+          <ul class="list-group">
+            <li class="list-group-item"><button type="button" class="btn btn-link">Link</button></li>
+            <li class="list-group-item"><button type="button" class="btn btn-link">Link</button></li>
+            <li class="list-group-item"><button type="button" class="btn btn-link">Link</button></li>
+            <li class="list-group-item"><button type="button" class="btn btn-link">Link</button></li>
+            <li class="list-group-item"><button type="button" class="btn btn-link">Link</button></li>
+          </ul>
+        </div>
+                                <!--this block is a place holder, this will dynamically generate with API call-->
+        <div class="container col-9 justify-content-end">
+          <div id="today"> <!--this looks like it can be called in the same api request-->
+            <br>
+            <p>City / Date<br>         
+            Temperature<br>
+            Humidity<br>
+            Wind Speed<br>
+            UV Index<br>
+            <br></p>
+          </div>
+          
+                                <!--this block is a place holder, this will dynamically generate with API call-->
+          <div class="container row justify-content-end"> <!--when pulling, use noon block from api "dt_txt":"2021-03-22 12:00:00"} -->
+            <div class="forcast col-md-2 col-sm-12">3-23-2021<br><br><br>temp 51<br>Humid AF</div>
+            <div class="forcast col-md-2 col-sm-12">3-23-2021<br><br><br>temp 51<br>Humid AF</div>
+            <div class="forcast col-md-2 col-sm-12">3-23-2021<br><br><br>temp 51<br>Humid AF</div>
+            <div class="forcast col-md-2 col-sm-12">3-23-2021<br><br><br>temp 51<br>Humid AF</div>
+            <div class="forcast col-md-2 col-sm-12">3-23-2021<br><br><br>temp 51<br>Humid AF</div>
+          </div>
+        </div>
+      
+    
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
+  <script src="assets/script.js"></script>
+</body>
+</html>
