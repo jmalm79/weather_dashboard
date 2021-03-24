@@ -20,7 +20,7 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 ## Link
-* <https://jmalm79.github.io/>   
+* <https://jmalm79.github.io/weather_dashboard/>   
 
 
 ![Screenshot of current progress.](assets/weather_dashboard.jpg)

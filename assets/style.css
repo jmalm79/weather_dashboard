@@ -39,27 +39,27 @@ figure.days {
    margin: 1%;
 }
 
-uvIndexLow {
+Low {
     background-color: lightgreen;
     color:white;
     
 }
 
-uvIndexMedium {
+Medium {
     background-color: orange;
 }
 
-uvIndexHigh {
+High {
     background-color: orangered;
     color: white;
 }
 
-uvIndxVHigh {
+VHigh {
     background-color: red;
     color: white;
 }
 
-uvIndxExHigh {
+ExHigh {
     background-color: purple;
     color: white;
 }

@@ -130,15 +130,15 @@ function saveSearch(){
 makeButton();
 
 
-  if (uvIndex < 3) {
-    "#uvIndex".addClass('low');
-   } else if (uvIndex < 6) {
-    "#uvIndex".addClass('medium');
-  } else if (uvIndex < 8) {
-    "#uvIndex".addClass('high');
-  } else {
-    "#uvIndex".addClass('vHigh');
-  };
+  // if (uvIndex < 3) {
+  //   "#uvIndex".addClass('low');
+  //  } else if (uvIndex < 6) {
+  //   "#uvIndex".addClass('medium');
+  // } else if (uvIndex < 8) {
+  //   "#uvIndex".addClass('high');
+  // } else {
+  //   "#uvIndex".addClass('vHigh');
+  // };
 
 // The init() function fires when the page is loaded 
 // function init() {
